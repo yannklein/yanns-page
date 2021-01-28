@@ -1,0 +1,85 @@
+/*Fonts & Color*/
+body {
+  font-family: 'Overpass', sans-serif;
+  background-color: rgb(250,250,250);
+  color: rgb(40,40,40);
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Chivo', sans-serif;
+}
+
+/*Customized style*/
+.banner {
+  text-align: center;
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  padding: 200px 0;
+  color: rgb(250,250,250);
+}
+
+.banner h1 {
+  font-size: 48px;
+}
+
+.banner p {
+  font-size: 24px;
+  color: rgba(250,250,250,0.8);
+}
+
+.btn-blue {
+  background-color: #0C1FC6;
+  color: rgb(250,250,250);
+  text-decoration: none;
+  padding: 16px 24px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.btn-blue:hover {
+  transition: 1s;
+  background-color: #80D39B;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.white-card {
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  background-color: white;
+  padding: 16px;
+  opacity: 0;
+}
+
+h2 {
+  cursor: pointer;
+}
+
+.display {
+  opacity: 1;
+  transition: 1s;
+}
+
+.white-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  margin-bottom: 16px;
+}
+
+.footer {
+  background-color: rgb(40,40,40);
+  padding: 48px 0;
+  color: rgb(250,250,250);
+}
+
+
